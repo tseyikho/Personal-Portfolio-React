@@ -9,6 +9,7 @@ import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
+import leetCode from "../../img/leetCode.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -39,9 +40,20 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/tseyikho" target="_blank">
+            <img src={Github} alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lawrence-tse-5810b6128/"
+            target="_blank"
+          >
+            <img src={LinkedIn} alt="" />
+          </a>
+          {/* <img src={Instagram} alt="" /> */}
+          <a href="https://leetcode.com/tseyikho/"
+          target= "_blank">
+            <img src={leetCode} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}

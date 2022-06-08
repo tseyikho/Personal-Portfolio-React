@@ -42,8 +42,11 @@
   display: flex;
   gap: 0rem;
 }
-.i-icons > * {
-  transform: scale(0.5);
+.i-icons > a > img {
+  /* transform: scale(0.5); */
+  max-width: 4rem;
+  max-height: 5rem;
+  margin-right: 2rem; 
 }
 .i-icons > *:hover {
   cursor: pointer;
